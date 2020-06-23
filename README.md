@@ -1,7 +1,7 @@
 # Odoo installation script
 Install Odoo on linux or aws server
 
-This is a flexible Odoo installation script. The script allows setting the desired Odoo version.
+This is a flexible Odoo installation script. It allows for custom configuration during installation.
 
 ## Clone repository
 ``git clone https://github.com/alvinshaita/install-odoo``
