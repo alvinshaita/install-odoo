@@ -1,7 +1,15 @@
 # Odoo installation script
 Install Odoo on linux or aws server
 
-This is a flexible Odoo installation script. It allows for custom configuration during installation.
+This is a flexible Odoo installation script.
+
+
+
+## Clone repository
+``git clone https://github.com/alvinshaita/install-odoo``
+
+## Script Configuration
+Configure the script as desired:
 
 `ODOO_USER` username of system user.
 
@@ -12,9 +20,6 @@ This is a flexible Odoo installation script. It allows for custom configuration 
 `IS_ENTERPRISE` To install an Enterprise version, set `True`, while `False` installs a Community version.
 
 `SUPERUSER` Odoo master password for the installation.
-
-## Clone repository
-``git clone https://github.com/alvinshaita/install-odoo``
 
 ## Make the script executable
 ``sudo chmod +x odoo_installer.sh``
