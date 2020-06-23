@@ -9,6 +9,8 @@ This is a flexible Odoo installation script. It allows for custom configuration 
 
 `VERSION` Odoo version to install. `12` by default, for Odoo V12.
 
+`IS_ENTERPRISE` To install an Enterprise version, set `True`, while `False` installs a Community version.
+
 `SUPERUSER` Odoo master password for the installation.
 
 ## Clone repository
